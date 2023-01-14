@@ -1,0 +1,48 @@
+img{
+    width: 30vw;
+    height: 500px;
+    border-radius: 25px;
+}
+.index_image{
+    width: 30vw;
+    height: 350px;
+    border-radius: 25px;
+}
+.annonces{
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.annonce{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 800px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    
+}
+.annonce1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 800px;
+    text-align:center;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+}
+.copyright {
+    padding: 15px;
+    font-size: 1.1rem;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
