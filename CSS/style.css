@@ -1,6 +1,6 @@
 img{
     width: 30vw;
-    height: 500px;
+    height: 600px;
     border-radius: 25px;
 }
 .index_image{
@@ -17,7 +17,6 @@ img{
     width: auto;
 }
 .annonce{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     width: 33%;
@@ -29,11 +28,10 @@ img{
     
 }
 .annonce1{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 800px;
+    height: auto;
     text-align:center;
     padding: 20px 20px 20px 20px;
     margin: auto;
