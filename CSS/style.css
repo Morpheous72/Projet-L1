@@ -2,18 +2,24 @@ img{
     width: auto;   
     /* border-radius: 10px; */
 }
-.index_image{
-    width: 30vw;
-    height: 350px;
-    border-radius: 15px;
-}
 .annonces{
-    margin: auto;
+    margin: 0px auto;
     padding: 20px;
     display: flex;
     flex-direction: row;
-    width: auto;
-    
+    /* width: auto; */
+}
+.lien-annonce{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: auto;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+.lien-annoce:hover{
+    background-color: blue;
 }
 .annonce{
     display: flex;
@@ -25,6 +31,14 @@ img{
     justify-content: center;
     padding: 20px;
     
+}
+.index_image{
+    width: 30vw;
+    height: 350px;
+    border-radius: 15px;
+}
+h3{
+    color: green;
 }
 .annonce1{
     display: flex;
@@ -50,13 +64,18 @@ img{
 }
 button{
     background-color: white;
-    width: 300px;
-    height: 40px;
+    height: auto;    
     margin: 2px;
-    border: 0;
-    font-size: 22px;
-    color: rgb(251, 17, 17);
-    border-radius: 3px;
+}
+#proceed{
+    width: 350px;
+border-radius: 5px;
+color: rgb(251, 17, 17);
+font-size: 25px;
+font-weight: bold;
+border: 2px solid black;
+margin: 20px auto;
+padding: 5px 35px;
 }
 #cancel:hover , #proceed:hover{
     background-color: rgb(251, 17, 17);
