@@ -1,83 +1,81 @@
-img{
-    width: auto;   
-    /* border-radius: 10px; */
+img {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+	/* border-radius: 10px; */
 }
-.annonces{
-    margin: 0px auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    /* width: auto; */
+.annonces {
+	margin: 0px auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	/* width: auto; */
 }
-.lien-annonce{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    height: auto;
-    text-align:center;
-    align-items: center;
-    justify-content: center;
+.lien-annonce {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
-.lien-annoce:hover{
-    background-color: blue;
+.lien-annoce:hover {
+	background-color: blue;
 }
-.annonce{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    height: auto;
-    text-align:center;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    
+.annonce {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
 }
-.index_image{
-    width: 30vw;
-    height: 350px;
-    border-radius: 15px;
+.index_image {
+	width: 30vw;
+	height: 350px;
+	border-radius: 15px;
 }
-h3{
-    color: green;
+h3 {
+	color: green;
 }
-.annonce1{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: auto;
-    text-align:center;
-    padding: 20px 20px 20px 20px;
-    margin: auto;
+.annonce1 {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: auto;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	margin: auto;
 }
-.navigation{
-    background-color: #222;
-    width: auto;
-    
+.navigation {
+	background-color: #222;
+	width: auto;
 }
 .copyright {
-    padding: 15px;
-    font-size: 1.1rem;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
+	padding: 15px;
+	font-size: 1.1rem;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
 }
-button{
+#proceed {
+    width: auto;
     background-color: white;
-    height: auto;    
-    margin: 2px;
+	color: rgb(251, 17, 17);
+	font-size: auto;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 20px auto;
+	padding: 5px 35px;
 }
-#proceed{
-    width: 350px;
-border-radius: 5px;
-color: rgb(251, 17, 17);
-font-size: 25px;
-font-weight: bold;
-border: 2px solid black;
-margin: 20px auto;
-padding: 5px 35px;
-}
-#cancel:hover , #proceed:hover{
-    background-color: rgb(251, 17, 17);
-    color: white;
+#cancel:hover,
+#proceed:hover {
+	background-color: rgb(251, 17, 17);
+	color: white;
+    text-transform: uppercase;
 }
